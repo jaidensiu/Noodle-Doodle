@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2258F9AB2B5C6255002FCE5E /* NoodleDoodleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9AA2B5C6255002FCE5E /* NoodleDoodleApp.swift */; };
+		2258F9AD2B5C6255002FCE5E /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9AC2B5C6255002FCE5E /* BaseView.swift */; };
+		2258F9AF2B5C6256002FCE5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2258F9AE2B5C6256002FCE5E /* Assets.xcassets */; };
+		2258F9B22B5C6256002FCE5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2258F9B12B5C6256002FCE5E /* Preview Assets.xcassets */; };
+		2258F9BA2B5C63B7002FCE5E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9B92B5C63B7002FCE5E /* LoadingView.swift */; };
+		2258F9BC2B5C64DB002FCE5E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9BB2B5C64DB002FCE5E /* MainView.swift */; };
+		2258F9C02B5C65BE002FCE5E /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9BF2B5C65BE002FCE5E /* MainViewModel.swift */; };
+		2258F9C22B5C65F4002FCE5E /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9C12B5C65F4002FCE5E /* MainModel.swift */; };
+		2258F9C52B5C66DA002FCE5E /* ButtonTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9C42B5C66DA002FCE5E /* ButtonTitle.swift */; };
+		2258F9C72B5C6A04002FCE5E /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9C62B5C6A04002FCE5E /* StartView.swift */; };
+		2258F9FC2B5C7D53002FCE5E /* LibraMoon-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2258F9F82B5C7D52002FCE5E /* LibraMoon-LightItalic.otf */; };
+		2258F9FD2B5C7D53002FCE5E /* LibraMoon-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2258F9F92B5C7D52002FCE5E /* LibraMoon-Regular.otf */; };
+		2258F9FE2B5C7D53002FCE5E /* LibraMoon-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2258F9FA2B5C7D52002FCE5E /* LibraMoon-Italic.otf */; };
+		2258F9FF2B5C7D53002FCE5E /* LibraMoon-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2258F9FB2B5C7D53002FCE5E /* LibraMoon-Light.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2258F9A72B5C6255002FCE5E /* Noodle Doodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noodle Doodle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2258F9AA2B5C6255002FCE5E /* NoodleDoodleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoodleDoodleApp.swift; sourceTree = "<group>"; };
+		2258F9AC2B5C6255002FCE5E /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		2258F9AE2B5C6256002FCE5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2258F9B12B5C6256002FCE5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2258F9B92B5C63B7002FCE5E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		2258F9BB2B5C64DB002FCE5E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2258F9BF2B5C65BE002FCE5E /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		2258F9C12B5C65F4002FCE5E /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		2258F9C42B5C66DA002FCE5E /* ButtonTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTitle.swift; sourceTree = "<group>"; };
+		2258F9C62B5C6A04002FCE5E /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		2258F9F82B5C7D52002FCE5E /* LibraMoon-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-LightItalic.otf"; sourceTree = "<group>"; };
+		2258F9F92B5C7D52002FCE5E /* LibraMoon-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-Regular.otf"; sourceTree = "<group>"; };
+		2258F9FA2B5C7D52002FCE5E /* LibraMoon-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-Italic.otf"; sourceTree = "<group>"; };
+		2258F9FB2B5C7D53002FCE5E /* LibraMoon-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-Light.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2258F9A42B5C6255002FCE5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2258F99E2B5C6255002FCE5E = {
+			isa = PBXGroup;
+			children = (
+				2258F9A92B5C6255002FCE5E /* Noodle Doodle */,
+				2258F9A82B5C6255002FCE5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2258F9A82B5C6255002FCE5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2258F9A72B5C6255002FCE5E /* Noodle Doodle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2258F9A92B5C6255002FCE5E /* Noodle Doodle */ = {
+			isa = PBXGroup;
+			children = (
+				2258F9AA2B5C6255002FCE5E /* NoodleDoodleApp.swift */,
+				2258F9AE2B5C6256002FCE5E /* Assets.xcassets */,
+				2258F9F72B5C7CDE002FCE5E /* Fonts */,
+				2258F9BD2B5C6534002FCE5E /* Models */,
+				2258F9F62B5C7CB0002FCE5E /* New Group */,
+				2258F9B02B5C6256002FCE5E /* Preview Content */,
+				2258F9BE2B5C653B002FCE5E /* ViewModels */,
+				2258F9B82B5C6380002FCE5E /* Views */,
+			);
+			path = "Noodle Doodle";
+			sourceTree = "<group>";
+		};
+		2258F9B02B5C6256002FCE5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2258F9B12B5C6256002FCE5E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2258F9B82B5C6380002FCE5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2258F9C32B5C66BF002FCE5E /* Components */,
+				2258F9AC2B5C6255002FCE5E /* BaseView.swift */,
+				2258F9B92B5C63B7002FCE5E /* LoadingView.swift */,
+				2258F9BB2B5C64DB002FCE5E /* MainView.swift */,
+				2258F9C62B5C6A04002FCE5E /* StartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2258F9BD2B5C6534002FCE5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2258F9C12B5C65F4002FCE5E /* MainModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2258F9BE2B5C653B002FCE5E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2258F9BF2B5C65BE002FCE5E /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2258F9C32B5C66BF002FCE5E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2258F9C42B5C66DA002FCE5E /* ButtonTitle.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2258F9F62B5C7CB0002FCE5E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		2258F9F72B5C7CDE002FCE5E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2258F9FA2B5C7D52002FCE5E /* LibraMoon-Italic.otf */,
+				2258F9FB2B5C7D53002FCE5E /* LibraMoon-Light.otf */,
+				2258F9F82B5C7D52002FCE5E /* LibraMoon-LightItalic.otf */,
+				2258F9F92B5C7D52002FCE5E /* LibraMoon-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2258F9A62B5C6255002FCE5E /* Noodle Doodle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2258F9B52B5C6256002FCE5E /* Build configuration list for PBXNativeTarget "Noodle Doodle" */;
+			buildPhases = (
+				2258F9A32B5C6255002FCE5E /* Sources */,
+				2258F9A42B5C6255002FCE5E /* Frameworks */,
+				2258F9A52B5C6255002FCE5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noodle Doodle";
+			productName = "Noodle Doodle";
+			productReference = 2258F9A72B5C6255002FCE5E /* Noodle Doodle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2258F99F2B5C6255002FCE5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2258F9A62B5C6255002FCE5E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2258F9A22B5C6255002FCE5E /* Build configuration list for PBXProject "Noodle Doodle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2258F99E2B5C6255002FCE5E;
+			productRefGroup = 2258F9A82B5C6255002FCE5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2258F9A62B5C6255002FCE5E /* Noodle Doodle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2258F9A52B5C6255002FCE5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2258F9B22B5C6256002FCE5E /* Preview Assets.xcassets in Resources */,
+				2258F9AF2B5C6256002FCE5E /* Assets.xcassets in Resources */,
+				2258F9FE2B5C7D53002FCE5E /* LibraMoon-Italic.otf in Resources */,
+				2258F9FD2B5C7D53002FCE5E /* LibraMoon-Regular.otf in Resources */,
+				2258F9FF2B5C7D53002FCE5E /* LibraMoon-Light.otf in Resources */,
+				2258F9FC2B5C7D53002FCE5E /* LibraMoon-LightItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2258F9A32B5C6255002FCE5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2258F9C02B5C65BE002FCE5E /* MainViewModel.swift in Sources */,
+				2258F9C52B5C66DA002FCE5E /* ButtonTitle.swift in Sources */,
+				2258F9AD2B5C6255002FCE5E /* BaseView.swift in Sources */,
+				2258F9C72B5C6A04002FCE5E /* StartView.swift in Sources */,
+				2258F9C22B5C65F4002FCE5E /* MainModel.swift in Sources */,
+				2258F9BC2B5C64DB002FCE5E /* MainView.swift in Sources */,
+				2258F9AB2B5C6255002FCE5E /* NoodleDoodleApp.swift in Sources */,
+				2258F9BA2B5C63B7002FCE5E /* LoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2258F9B32B5C6256002FCE5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2258F9B42B5C6256002FCE5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2258F9B62B5C6256002FCE5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Noodle Doodle/Preview Content\"";
+				DEVELOPMENT_TEAM = SGR28C4682;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Noodle-Doodle-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaiden.Noodle-Doodle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2258F9B72B5C6256002FCE5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Noodle Doodle/Preview Content\"";
+				DEVELOPMENT_TEAM = SGR28C4682;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Noodle-Doodle-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaiden.Noodle-Doodle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2258F9A22B5C6255002FCE5E /* Build configuration list for PBXProject "Noodle Doodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2258F9B32B5C6256002FCE5E /* Debug */,
+				2258F9B42B5C6256002FCE5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2258F9B52B5C6256002FCE5E /* Build configuration list for PBXNativeTarget "Noodle Doodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2258F9B62B5C6256002FCE5E /* Debug */,
+				2258F9B72B5C6256002FCE5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2258F99F2B5C6255002FCE5E /* Project object */;
+}
