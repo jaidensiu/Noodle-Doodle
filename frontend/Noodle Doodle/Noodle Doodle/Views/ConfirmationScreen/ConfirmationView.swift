@@ -2,50 +2,65 @@ import SwiftUI
 
 struct ConfirmationView: View {
     var body: some View {
-        Text("YOUR NOODLE ORDER")
-          .font(
-            Font.custom("Manrope", size: 18)
-              .weight(.medium)
-          )
-          .multilineTextAlignment(.center)
-          .foregroundColor(Color(red: 0.25, green: 0.25, blue: 0.25))
-        
-        Image("Noodle1")
-            .resizable()
-            .imageScale(.small)
-            .foregroundColor(.accentColor)
-            .frame(width: 400, height: 400)
-        
-        HStack {
-            Text("SPICE LEVEL")
-                .padding(.trailing, 20)
-                .bold()
-            
-            Text("Medium")
-        }
-        .padding(.top, 20)
-        
-        NavigationLink(destination: CookStatusView()) {
-            VStack(alignment: .leading, spacing: 192) {
-                ZStack {
-                    Rectangle()
-                        .foregroundColor(.clear)
-                        .frame(width: 89, height: 27)
-                        .background(Color(red: 0.77, green: 0.88, blue: 0.9))
-                        .cornerRadius(200)
+        NavigationView {
+            VStack {
+                Text("Review your\nOrder")
+                    .font(Font.custom("Libra", size: 28))
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                
+                Image("Noodle1")
+                    .resizable()
+                    .frame(width: 400, height: 400)
+                
+                HStack {
+                    Text("SPICE LEVEL")
+                        .font(Font.custom("Libra", size: 18))
+                        .padding(.trailing, 20)
                     
-                    Text("COOK")
-                        .font(Font.custom("LibraMoon-Regular", size: 18))
-                        .multilineTextAlignment(.center)
-                        .foregroundColor(Color(red: 0.25, green: 0.25, blue: 0.25))
+                    Text("Medium")
+                }
+                
+                HStack {
+                    NavigationLink(destination: CookStatusView()) {
+                        ZStack {
+                            Rectangle()
+                                .foregroundColor(.clear)
+                                .frame(width: 160, height: 60)
+                                .background(Color(red: 0.77, green: 0.88, blue: 0.9))
+                                .cornerRadius(60)
+                            
+                            Text("COOK")
+                                .font(Font.custom("Libra", size: 24))
+                                .foregroundColor(Color(red: 0.25, green: 0.25, blue: 0.25))
+                        }
+                    }
+                    
+                    NavigationLink(destination: MainView()) {
+                        ZStack {
+                            Rectangle()
+                                .foregroundColor(.clear)
+                                .frame(width: 160, height: 60)
+                                .background(Color.white)
+                                .cornerRadius(60)
+                            
+                            Text("CANCEL")
+                                .font(Font.custom("Libra", size: 24))
+                                .foregroundColor(Color(red: 0.25, green: 0.25, blue: 0.25))
+                                .frame(width: 160, height: 60)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 60)
+                                        .stroke(Color.black, lineWidth: 2)
+                                )
+                        }
+                    }
                 }
             }
-            .padding(.horizontal, 40)
-            .padding(.vertical, 20)
-            .background(Color.white)
-            .cornerRadius(23)
-            .padding(.top, 50)
-            .padding(.bottom, 60)
+            .padding(.horizontal, 20)
+            .padding(.top, -50)
+            .navigationBarHidden(true)
+            .navigationBarBackButtonHidden(true)
         }
+        .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
     }
 }

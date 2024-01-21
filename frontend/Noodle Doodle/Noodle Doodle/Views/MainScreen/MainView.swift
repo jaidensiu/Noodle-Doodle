@@ -2,7 +2,7 @@ import SwiftUI
 
 struct MainView: View {
     var spiceLevels = [
-        ("Low", Color(red: 0.89, green: 0.84, blue: 0.59)),
+        ("Lo", Color(red: 0.89, green: 0.84, blue: 0.59)),
         ("Med", Color(red: 0.89, green: 0.72, blue: 0.59)),
         ("Hi", Color(red: 0.89, green: 0.59, blue: 0.59))
     ]
@@ -13,21 +13,17 @@ struct MainView: View {
         NavigationView {
             VStack {
                 getGreetingMessage()
-                    .padding(.top, 20)
-                    .frame(maxWidth: .infinity, alignment: .leading)
                 
                 Image(
-                    selectedSpiceLevel == "Low" ? "Noodle1" :
+                    selectedSpiceLevel == "Lo" ? "Noodle1" :
                     selectedSpiceLevel == "Med" ? "Noodle2" :
-                    selectedSpiceLevel == "Hi" ? "Noodle3" : "Bowl"
+                    selectedSpiceLevel == "Hi" ? "Noodle3" : "Noodle0"
                 )
                     .resizable()
-                    .imageScale(.small)
-                    .foregroundColor(.accentColor)
                     .frame(width: 400, height: 400)
                 
                 Text("SPICE LEVEL")
-                    .bold()
+                    .font(Font.custom("Libra", size: 18))
                 
                 HStack {
                     ForEach(spiceLevels, id: \.0) { (level, color) in
@@ -37,54 +33,61 @@ struct MainView: View {
                             isSelected: selectedSpiceLevel == level,
                             action: { selectedSpiceLevel = level }
                         )
-                        .padding(.horizontal, 10)
+                        .padding(.horizontal, 5)
                     }
                 }
                 
                 NavigationLink(destination: ConfirmationView()) {
-                    VStack(alignment: .leading, spacing: 192) {
-                        ZStack {
-                            Rectangle()
-                                .foregroundColor(.clear)
-                                .frame(width: 89, height: 27)
-                                .background(Color(red: 0.77, green: 0.88, blue: 0.9))
-                                .cornerRadius(200)
-                            
-                            Text("ORDER")
-                                .font(Font.custom("LibraMoon-Regular", size: 18))
-                                .multilineTextAlignment(.center)
-                                .foregroundColor(Color(red: 0.25, green: 0.25, blue: 0.25))
-                        }
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.clear)
+                            .frame(width: 160, height: 60)
+                            .background(
+                                selectedSpiceLevel == nil ?
+                                    Color(red: 0.77, green: 0.89, blue: 0.9).opacity(0.5) :
+                                    Color(red: 0.77, green: 0.88, blue: 0.9)
+                            )
+                            .cornerRadius(60)
+                        
+                        Text("ORDER")
+                            .font(Font.custom("Libra", size: 24))
+                            .foregroundColor(
+                                selectedSpiceLevel == nil ?
+                                    Color(red: 0.65, green: 0.65, blue: 0.65) :
+                                    Color(red: 0.25, green: 0.25, blue: 0.25)
+                            )
                     }
-                    .padding(.horizontal, 40)
-                    .padding(.vertical, 20)
-                    .background(Color.white)
-                    .cornerRadius(23)
-                    .padding(.top, 50)
-                    .padding(.bottom, 60)
                 }
+                .disabled(selectedSpiceLevel == nil)
             }
-            .padding()
+            .padding(.horizontal, 20)
+            .navigationBarHidden(true)
+            .navigationBarBackButtonHidden(true)
         }
         .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
     }
 
     private func getGreetingMessage() -> some View {
         let calendar = Calendar.current
         let hour = calendar.component(.hour, from: Date())
-
+        let user = "Jaiden"
         var greeting = ""
 
         switch hour {
-        case 0..<12:
-            greeting = "Good morning"
-        case 12..<17:
-            greeting = "Good afternoon"
-        default:
-            greeting = "Good evening"
+            case 0..<3:
+                greeting = "Late night snack,\n\(user)?"
+            case 3..<12:
+                greeting = "Good morning,\n\(user)!"
+            case 12..<17:
+                greeting = "Good afternoon,\n\(user)!"
+            default:
+                greeting = "Good evening,\n\(user)!"
         }
 
-        return Text("\(greeting), Jaiden!")
+        return Text("\(greeting)")
+            .font(Font.custom("Libra", size: 28))
+            .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
 

@@ -5,9 +5,6 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>LibraMoon-Regular.otf</string>
-		<string>LibraMoon-Italic</string>
-		<string>LibraMoon-Light</string>
-		<string>LibraMoon-LightItalic</string>
 	</array>
 	<key>UTImportedTypeDeclarations</key>
 	<array>

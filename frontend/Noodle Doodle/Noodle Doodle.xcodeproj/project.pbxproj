@@ -17,15 +17,15 @@
 		2258F9C22B5C65F4002FCE5E /* NoodleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9C12B5C65F4002FCE5E /* NoodleModel.swift */; };
 		2258F9C52B5C66DA002FCE5E /* ButtonTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9C42B5C66DA002FCE5E /* ButtonTitle.swift */; };
 		2258F9C72B5C6A04002FCE5E /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9C62B5C6A04002FCE5E /* StartView.swift */; };
-		2258F9FC2B5C7D53002FCE5E /* LibraMoon-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2258F9F82B5C7D52002FCE5E /* LibraMoon-LightItalic.otf */; };
-		2258F9FD2B5C7D53002FCE5E /* LibraMoon-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2258F9F92B5C7D52002FCE5E /* LibraMoon-Regular.otf */; };
-		2258F9FE2B5C7D53002FCE5E /* LibraMoon-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2258F9FA2B5C7D52002FCE5E /* LibraMoon-Italic.otf */; };
-		2258F9FF2B5C7D53002FCE5E /* LibraMoon-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2258F9FB2B5C7D53002FCE5E /* LibraMoon-Light.otf */; };
 		22A627722B5C981900C8CDB7 /* SpiceLevelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A627712B5C981900C8CDB7 /* SpiceLevelButton.swift */; };
 		22A627742B5C983400C8CDB7 /* NoodleTextureSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A627732B5C983400C8CDB7 /* NoodleTextureSlider.swift */; };
 		22A627762B5CA45400C8CDB7 /* ToppingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A627752B5CA45400C8CDB7 /* ToppingButton.swift */; };
 		22A6277A2B5CB0DB00C8CDB7 /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A627792B5CB0DB00C8CDB7 /* ConfirmationView.swift */; };
 		22A6277D2B5CE4B600C8CDB7 /* CookStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A6277C2B5CE4B600C8CDB7 /* CookStatusView.swift */; };
+		22E36B362B5CFA5700790B92 /* LibraMoon-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 22E36B322B5CFA5700790B92 /* LibraMoon-LightItalic.otf */; };
+		22E36B372B5CFA5700790B92 /* LibraMoon-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 22E36B332B5CFA5700790B92 /* LibraMoon-Regular.otf */; };
+		22E36B382B5CFA5700790B92 /* LibraMoon-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 22E36B342B5CFA5700790B92 /* LibraMoon-Light.otf */; };
+		22E36B392B5CFA5700790B92 /* LibraMoon-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 22E36B352B5CFA5700790B92 /* LibraMoon-Italic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,15 +40,15 @@
 		2258F9C12B5C65F4002FCE5E /* NoodleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoodleModel.swift; sourceTree = "<group>"; };
 		2258F9C42B5C66DA002FCE5E /* ButtonTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTitle.swift; sourceTree = "<group>"; };
 		2258F9C62B5C6A04002FCE5E /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
-		2258F9F82B5C7D52002FCE5E /* LibraMoon-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-LightItalic.otf"; sourceTree = "<group>"; };
-		2258F9F92B5C7D52002FCE5E /* LibraMoon-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-Regular.otf"; sourceTree = "<group>"; };
-		2258F9FA2B5C7D52002FCE5E /* LibraMoon-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-Italic.otf"; sourceTree = "<group>"; };
-		2258F9FB2B5C7D53002FCE5E /* LibraMoon-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-Light.otf"; sourceTree = "<group>"; };
 		22A627712B5C981900C8CDB7 /* SpiceLevelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiceLevelButton.swift; sourceTree = "<group>"; };
 		22A627732B5C983400C8CDB7 /* NoodleTextureSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoodleTextureSlider.swift; sourceTree = "<group>"; };
 		22A627752B5CA45400C8CDB7 /* ToppingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToppingButton.swift; sourceTree = "<group>"; };
 		22A627792B5CB0DB00C8CDB7 /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
 		22A6277C2B5CE4B600C8CDB7 /* CookStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookStatusView.swift; sourceTree = "<group>"; };
+		22E36B322B5CFA5700790B92 /* LibraMoon-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-LightItalic.otf"; sourceTree = "<group>"; };
+		22E36B332B5CFA5700790B92 /* LibraMoon-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-Regular.otf"; sourceTree = "<group>"; };
+		22E36B342B5CFA5700790B92 /* LibraMoon-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-Light.otf"; sourceTree = "<group>"; };
+		22E36B352B5CFA5700790B92 /* LibraMoon-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-Italic.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,10 +133,10 @@
 		2258F9F72B5C7CDE002FCE5E /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				2258F9FA2B5C7D52002FCE5E /* LibraMoon-Italic.otf */,
-				2258F9FB2B5C7D53002FCE5E /* LibraMoon-Light.otf */,
-				2258F9F82B5C7D52002FCE5E /* LibraMoon-LightItalic.otf */,
-				2258F9F92B5C7D52002FCE5E /* LibraMoon-Regular.otf */,
+				22E36B352B5CFA5700790B92 /* LibraMoon-Italic.otf */,
+				22E36B342B5CFA5700790B92 /* LibraMoon-Light.otf */,
+				22E36B322B5CFA5700790B92 /* LibraMoon-LightItalic.otf */,
+				22E36B332B5CFA5700790B92 /* LibraMoon-Regular.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -144,8 +144,8 @@
 		22A627702B5C97FF00C8CDB7 /* MainScreen */ = {
 			isa = PBXGroup;
 			children = (
+				22E36B3A2B5D235C00790B92 /* Components */,
 				2258F9BB2B5C64DB002FCE5E /* MainView.swift */,
-				22A627712B5C981900C8CDB7 /* SpiceLevelButton.swift */,
 				22A627732B5C983400C8CDB7 /* NoodleTextureSlider.swift */,
 				22A627752B5CA45400C8CDB7 /* ToppingButton.swift */,
 			);
@@ -174,6 +174,14 @@
 				22A6277C2B5CE4B600C8CDB7 /* CookStatusView.swift */,
 			);
 			path = CookStatusScreen;
+			sourceTree = "<group>";
+		};
+		22E36B3A2B5D235C00790B92 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				22A627712B5C981900C8CDB7 /* SpiceLevelButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,12 +242,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E36B372B5CFA5700790B92 /* LibraMoon-Regular.otf in Resources */,
 				2258F9B22B5C6256002FCE5E /* Preview Assets.xcassets in Resources */,
 				2258F9AF2B5C6256002FCE5E /* Assets.xcassets in Resources */,
-				2258F9FE2B5C7D53002FCE5E /* LibraMoon-Italic.otf in Resources */,
-				2258F9FD2B5C7D53002FCE5E /* LibraMoon-Regular.otf in Resources */,
-				2258F9FF2B5C7D53002FCE5E /* LibraMoon-Light.otf in Resources */,
-				2258F9FC2B5C7D53002FCE5E /* LibraMoon-LightItalic.otf in Resources */,
+				22E36B362B5CFA5700790B92 /* LibraMoon-LightItalic.otf in Resources */,
+				22E36B382B5CFA5700790B92 /* LibraMoon-Light.otf in Resources */,
+				22E36B392B5CFA5700790B92 /* LibraMoon-Italic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
