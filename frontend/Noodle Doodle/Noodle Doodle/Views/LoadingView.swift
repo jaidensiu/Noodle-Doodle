@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct LoadingView: View {
-    let imageNames = ["Loading1", "Loading2", "Loading3"]
+    let imageNames = ["Noodle1", "Noodle2", "Noodle3"]
     @State private var currentIndex = 0
     
     var body: some View {

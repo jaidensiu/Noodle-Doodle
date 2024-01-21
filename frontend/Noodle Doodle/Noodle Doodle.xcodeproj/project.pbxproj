@@ -13,8 +13,8 @@
 		2258F9B22B5C6256002FCE5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2258F9B12B5C6256002FCE5E /* Preview Assets.xcassets */; };
 		2258F9BA2B5C63B7002FCE5E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9B92B5C63B7002FCE5E /* LoadingView.swift */; };
 		2258F9BC2B5C64DB002FCE5E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9BB2B5C64DB002FCE5E /* MainView.swift */; };
-		2258F9C02B5C65BE002FCE5E /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9BF2B5C65BE002FCE5E /* MainViewModel.swift */; };
-		2258F9C22B5C65F4002FCE5E /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9C12B5C65F4002FCE5E /* MainModel.swift */; };
+		2258F9C02B5C65BE002FCE5E /* NoodleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9BF2B5C65BE002FCE5E /* NoodleViewModel.swift */; };
+		2258F9C22B5C65F4002FCE5E /* NoodleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9C12B5C65F4002FCE5E /* NoodleModel.swift */; };
 		2258F9C52B5C66DA002FCE5E /* ButtonTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9C42B5C66DA002FCE5E /* ButtonTitle.swift */; };
 		2258F9C72B5C6A04002FCE5E /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9C62B5C6A04002FCE5E /* StartView.swift */; };
 		2258F9FC2B5C7D53002FCE5E /* LibraMoon-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2258F9F82B5C7D52002FCE5E /* LibraMoon-LightItalic.otf */; };
@@ -25,6 +25,7 @@
 		22A627742B5C983400C8CDB7 /* NoodleTextureSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A627732B5C983400C8CDB7 /* NoodleTextureSlider.swift */; };
 		22A627762B5CA45400C8CDB7 /* ToppingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A627752B5CA45400C8CDB7 /* ToppingButton.swift */; };
 		22A6277A2B5CB0DB00C8CDB7 /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A627792B5CB0DB00C8CDB7 /* ConfirmationView.swift */; };
+		22A6277D2B5CE4B600C8CDB7 /* CookStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A6277C2B5CE4B600C8CDB7 /* CookStatusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +36,8 @@
 		2258F9B12B5C6256002FCE5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2258F9B92B5C63B7002FCE5E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		2258F9BB2B5C64DB002FCE5E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		2258F9BF2B5C65BE002FCE5E /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
-		2258F9C12B5C65F4002FCE5E /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		2258F9BF2B5C65BE002FCE5E /* NoodleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoodleViewModel.swift; sourceTree = "<group>"; };
+		2258F9C12B5C65F4002FCE5E /* NoodleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoodleModel.swift; sourceTree = "<group>"; };
 		2258F9C42B5C66DA002FCE5E /* ButtonTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTitle.swift; sourceTree = "<group>"; };
 		2258F9C62B5C6A04002FCE5E /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		2258F9F82B5C7D52002FCE5E /* LibraMoon-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-LightItalic.otf"; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		22A627732B5C983400C8CDB7 /* NoodleTextureSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoodleTextureSlider.swift; sourceTree = "<group>"; };
 		22A627752B5CA45400C8CDB7 /* ToppingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToppingButton.swift; sourceTree = "<group>"; };
 		22A627792B5CB0DB00C8CDB7 /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+		22A6277C2B5CE4B600C8CDB7 /* CookStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookStatusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +103,13 @@
 		2258F9B82B5C6380002FCE5E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				22A627782B5CB0CE00C8CDB7 /* ConfirmationScreen */,
-				22A627772B5CB0B500C8CDB7 /* StartScreen */,
-				22A627702B5C97FF00C8CDB7 /* MainScreen */,
 				2258F9AC2B5C6255002FCE5E /* BaseView.swift */,
-				2258F9B92B5C63B7002FCE5E /* LoadingView.swift */,
 				2258F9C42B5C66DA002FCE5E /* ButtonTitle.swift */,
+				2258F9B92B5C63B7002FCE5E /* LoadingView.swift */,
+				22A627782B5CB0CE00C8CDB7 /* ConfirmationScreen */,
+				22A6277B2B5CE4A900C8CDB7 /* CookStatusScreen */,
+				22A627702B5C97FF00C8CDB7 /* MainScreen */,
+				22A627772B5CB0B500C8CDB7 /* StartScreen */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,7 +117,7 @@
 		2258F9BD2B5C6534002FCE5E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2258F9C12B5C65F4002FCE5E /* MainModel.swift */,
+				2258F9C12B5C65F4002FCE5E /* NoodleModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -122,7 +125,7 @@
 		2258F9BE2B5C653B002FCE5E /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				2258F9BF2B5C65BE002FCE5E /* MainViewModel.swift */,
+				2258F9BF2B5C65BE002FCE5E /* NoodleViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -163,6 +166,14 @@
 				22A627792B5CB0DB00C8CDB7 /* ConfirmationView.swift */,
 			);
 			path = ConfirmationScreen;
+			sourceTree = "<group>";
+		};
+		22A6277B2B5CE4A900C8CDB7 /* CookStatusScreen */ = {
+			isa = PBXGroup;
+			children = (
+				22A6277C2B5CE4B600C8CDB7 /* CookStatusView.swift */,
+			);
+			path = CookStatusScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,17 +250,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2258F9C02B5C65BE002FCE5E /* MainViewModel.swift in Sources */,
+				2258F9C02B5C65BE002FCE5E /* NoodleViewModel.swift in Sources */,
 				22A6277A2B5CB0DB00C8CDB7 /* ConfirmationView.swift in Sources */,
 				2258F9C52B5C66DA002FCE5E /* ButtonTitle.swift in Sources */,
 				2258F9AD2B5C6255002FCE5E /* BaseView.swift in Sources */,
 				22A627742B5C983400C8CDB7 /* NoodleTextureSlider.swift in Sources */,
 				2258F9C72B5C6A04002FCE5E /* StartView.swift in Sources */,
 				22A627762B5CA45400C8CDB7 /* ToppingButton.swift in Sources */,
-				2258F9C22B5C65F4002FCE5E /* MainModel.swift in Sources */,
+				2258F9C22B5C65F4002FCE5E /* NoodleModel.swift in Sources */,
 				2258F9BC2B5C64DB002FCE5E /* MainView.swift in Sources */,
 				22A627722B5C981900C8CDB7 /* SpiceLevelButton.swift in Sources */,
 				2258F9AB2B5C6255002FCE5E /* NoodleDoodleApp.swift in Sources */,
+				22A6277D2B5CE4B600C8CDB7 /* CookStatusView.swift in Sources */,
 				2258F9BA2B5C63B7002FCE5E /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,6 +1,6 @@
 import Foundation
 
-class MainViewModel: ObservableObject {
+class NoodleViewModel: ObservableObject {
     @Published var result: String = ""
     @Published var refreshFlag: Bool = false
 
@@ -15,7 +15,7 @@ class MainViewModel: ObservableObject {
                 if let responseString = String(data: data.0, encoding: .utf8) {
                     print("Cooking!")
                     DispatchQueue.main.async {
-//                        self.result = responseString
+                        self.result = responseString
                         self.result = "Cooking!"
                         self.refreshFlag.toggle()
                     }

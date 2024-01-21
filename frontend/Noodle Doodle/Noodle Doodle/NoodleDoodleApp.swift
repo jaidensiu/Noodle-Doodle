@@ -4,9 +4,9 @@ import SwiftUI
 struct NoodleDoodleApp: App {
     var body: some Scene {
         WindowGroup {
-//            StartView()
+            StartView()
 //            MainView()
-            ConfirmationView()
+//            ConfirmationView()
         }
     }
 }
