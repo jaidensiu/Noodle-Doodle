@@ -30,6 +30,7 @@ class Servos:
             self.hold_noodle()
             self.hold_spice()
             self.hold_water()
+            self.reset_stove()
 
         except Exception as e:
             print(e)
@@ -70,6 +71,11 @@ class Servos:
         time.sleep(0.4)
         self.pwm.set_servo_pulsewidth(self.stove_servo, 0)
 
+    def reset_stove(self):
+        self.pwm.set_servo_pulsewidth(self.stove_servo, 500)
+        time.sleep(0.15)
+        self.pwm.set_servo_pulsewidth(self.stove_servo, 0)
+
     def turn_on_stove(self):
         self.pwm.set_servo_pulsewidth(self.stove_servo, 2500)
         time.sleep(0.4)
@@ -100,9 +106,9 @@ class Servos:
         self.hold_spice()
         time.sleep(1)
         self.pour_water()
-        time.sleep(3)
-        self.hold_water()
         time.sleep(68)
+        self.hold_water()
+        time.sleep(1)
         self.turn_on_stove()
         time.sleep(300)
         self.turn_off_stove()
