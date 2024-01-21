@@ -23,6 +23,7 @@ struct StartView: View {
             VStack {
                 Text("Noodle\nDoodle")
                     .font(Font.custom("Libra", size: 48))
+                    .foregroundColor(Color(red: 0.25, green: 0.25, blue: 0.25))
                 
                 Image(imageNames[currentIndex])
                     .resizable()

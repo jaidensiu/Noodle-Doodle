@@ -7,8 +7,9 @@ struct ConfirmationView: View {
                 Text("Review your\nOrder")
                     .font(Font.custom("Libra", size: 28))
                     .frame(maxWidth: .infinity, alignment: .leading)
+                    .foregroundColor(Color(red: 0.25, green: 0.25, blue: 0.25))
                 
-                Image("Noodle1")
+                Image("Noodle2")
                     .resizable()
                     .frame(width: 400, height: 400)
                 
@@ -16,8 +17,11 @@ struct ConfirmationView: View {
                     Text("SPICE LEVEL")
                         .font(Font.custom("Libra", size: 18))
                         .padding(.trailing, 20)
+                        .foregroundColor(Color(red: 0.25, green: 0.25, blue: 0.25))
                     
                     Text("Medium")
+                        .foregroundColor(Color(red: 0.25, green: 0.25, blue: 0.25))
+                        .font(Font.custom("Libra", size: 18))
                 }
                 
                 HStack {
@@ -49,11 +53,12 @@ struct ConfirmationView: View {
                                 .frame(width: 160, height: 60)
                                 .overlay(
                                     RoundedRectangle(cornerRadius: 60)
-                                        .stroke(Color.black, lineWidth: 2)
+                                        .stroke(Color(red: 0.25, green: 0.25, blue: 0.25), lineWidth: 2)
                                 )
                         }
                     }
                 }
+                .padding(.top, 10)
             }
             .padding(.horizontal, 20)
             .padding(.top, -50)

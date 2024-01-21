@@ -7,7 +7,7 @@ struct MainView: View {
         ("Hi", Color(red: 0.89, green: 0.59, blue: 0.59))
     ]
     @State private var selectedSpiceLevel: String?
-    @StateObject private var viewModel = NoodleViewModel()
+    @StateObject private var viewModel = ContentViewModel()
 
     var body: some View {
         NavigationView {
@@ -24,6 +24,7 @@ struct MainView: View {
                 
                 Text("SPICE LEVEL")
                     .font(Font.custom("Libra", size: 18))
+                    .foregroundColor(Color(red: 0.25, green: 0.25, blue: 0.25))
                 
                 HStack {
                     ForEach(spiceLevels, id: \.0) { (level, color) in
@@ -44,7 +45,7 @@ struct MainView: View {
                             .frame(width: 160, height: 60)
                             .background(
                                 selectedSpiceLevel == nil ?
-                                    Color(red: 0.77, green: 0.89, blue: 0.9).opacity(0.5) :
+                                    Color(red: 0.77, green: 0.88, blue: 0.9).opacity(0.5) :
                                     Color(red: 0.77, green: 0.88, blue: 0.9)
                             )
                             .cornerRadius(60)
@@ -57,6 +58,7 @@ struct MainView: View {
                                     Color(red: 0.25, green: 0.25, blue: 0.25)
                             )
                     }
+                    .padding(.top, 10)
                 }
                 .disabled(selectedSpiceLevel == nil)
             }
@@ -88,6 +90,7 @@ struct MainView: View {
         return Text("\(greeting)")
             .font(Font.custom("Libra", size: 28))
             .frame(maxWidth: .infinity, alignment: .leading)
+            .foregroundColor(Color(red: 0.25, green: 0.25, blue: 0.25))
     }
 }
 

@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19BD4CEBB2B36C3B6B92191C /* Pods_Noodle_Doodle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2043058E228EC59F903309 /* Pods_Noodle_Doodle.framework */; };
 		2258F9AB2B5C6255002FCE5E /* NoodleDoodleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9AA2B5C6255002FCE5E /* NoodleDoodleApp.swift */; };
 		2258F9AD2B5C6255002FCE5E /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9AC2B5C6255002FCE5E /* BaseView.swift */; };
 		2258F9AF2B5C6256002FCE5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2258F9AE2B5C6256002FCE5E /* Assets.xcassets */; };
 		2258F9B22B5C6256002FCE5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2258F9B12B5C6256002FCE5E /* Preview Assets.xcassets */; };
 		2258F9BA2B5C63B7002FCE5E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9B92B5C63B7002FCE5E /* LoadingView.swift */; };
 		2258F9BC2B5C64DB002FCE5E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9BB2B5C64DB002FCE5E /* MainView.swift */; };
-		2258F9C02B5C65BE002FCE5E /* NoodleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9BF2B5C65BE002FCE5E /* NoodleViewModel.swift */; };
-		2258F9C22B5C65F4002FCE5E /* NoodleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9C12B5C65F4002FCE5E /* NoodleModel.swift */; };
+		2258F9C02B5C65BE002FCE5E /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9BF2B5C65BE002FCE5E /* ContentViewModel.swift */; };
+		2258F9C22B5C65F4002FCE5E /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9C12B5C65F4002FCE5E /* BaseModel.swift */; };
 		2258F9C52B5C66DA002FCE5E /* ButtonTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9C42B5C66DA002FCE5E /* ButtonTitle.swift */; };
 		2258F9C72B5C6A04002FCE5E /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258F9C62B5C6A04002FCE5E /* StartView.swift */; };
 		22A627722B5C981900C8CDB7 /* SpiceLevelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A627712B5C981900C8CDB7 /* SpiceLevelButton.swift */; };
@@ -22,6 +23,8 @@
 		22A627762B5CA45400C8CDB7 /* ToppingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A627752B5CA45400C8CDB7 /* ToppingButton.swift */; };
 		22A6277A2B5CB0DB00C8CDB7 /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A627792B5CB0DB00C8CDB7 /* ConfirmationView.swift */; };
 		22A6277D2B5CE4B600C8CDB7 /* CookStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A6277C2B5CE4B600C8CDB7 /* CookStatusView.swift */; };
+		22C51A612B5D5AC8009D4ED5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C51A602B5D5AC8009D4ED5 /* ContentView.swift */; };
+		22C51A632B5D5B05009D4ED5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C51A622B5D5B05009D4ED5 /* Post.swift */; };
 		22E36B362B5CFA5700790B92 /* LibraMoon-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 22E36B322B5CFA5700790B92 /* LibraMoon-LightItalic.otf */; };
 		22E36B372B5CFA5700790B92 /* LibraMoon-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 22E36B332B5CFA5700790B92 /* LibraMoon-Regular.otf */; };
 		22E36B382B5CFA5700790B92 /* LibraMoon-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 22E36B342B5CFA5700790B92 /* LibraMoon-Light.otf */; };
@@ -36,8 +39,8 @@
 		2258F9B12B5C6256002FCE5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2258F9B92B5C63B7002FCE5E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		2258F9BB2B5C64DB002FCE5E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		2258F9BF2B5C65BE002FCE5E /* NoodleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoodleViewModel.swift; sourceTree = "<group>"; };
-		2258F9C12B5C65F4002FCE5E /* NoodleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoodleModel.swift; sourceTree = "<group>"; };
+		2258F9BF2B5C65BE002FCE5E /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		2258F9C12B5C65F4002FCE5E /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		2258F9C42B5C66DA002FCE5E /* ButtonTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTitle.swift; sourceTree = "<group>"; };
 		2258F9C62B5C6A04002FCE5E /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		22A627712B5C981900C8CDB7 /* SpiceLevelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiceLevelButton.swift; sourceTree = "<group>"; };
@@ -45,10 +48,15 @@
 		22A627752B5CA45400C8CDB7 /* ToppingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToppingButton.swift; sourceTree = "<group>"; };
 		22A627792B5CB0DB00C8CDB7 /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
 		22A6277C2B5CE4B600C8CDB7 /* CookStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookStatusView.swift; sourceTree = "<group>"; };
+		22C51A602B5D5AC8009D4ED5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22C51A622B5D5B05009D4ED5 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		22E36B322B5CFA5700790B92 /* LibraMoon-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-LightItalic.otf"; sourceTree = "<group>"; };
 		22E36B332B5CFA5700790B92 /* LibraMoon-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-Regular.otf"; sourceTree = "<group>"; };
 		22E36B342B5CFA5700790B92 /* LibraMoon-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-Light.otf"; sourceTree = "<group>"; };
 		22E36B352B5CFA5700790B92 /* LibraMoon-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-Italic.otf"; sourceTree = "<group>"; };
+		560D817BDE0B3146BB1B135B /* Pods-Noodle Doodle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noodle Doodle.debug.xcconfig"; path = "Target Support Files/Pods-Noodle Doodle/Pods-Noodle Doodle.debug.xcconfig"; sourceTree = "<group>"; };
+		DF2043058E228EC59F903309 /* Pods_Noodle_Doodle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noodle_Doodle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED49007CE84F5A323FA6F74A /* Pods-Noodle Doodle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noodle Doodle.release.xcconfig"; path = "Target Support Files/Pods-Noodle Doodle/Pods-Noodle Doodle.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19BD4CEBB2B36C3B6B92191C /* Pods_Noodle_Doodle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +76,8 @@
 			children = (
 				2258F9A92B5C6255002FCE5E /* Noodle Doodle */,
 				2258F9A82B5C6255002FCE5E /* Products */,
+				3E10B83DDE1DEF1D300C2DEC /* Pods */,
+				C1BD4C550D9BCFF463F96766 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +116,7 @@
 			children = (
 				2258F9AC2B5C6255002FCE5E /* BaseView.swift */,
 				2258F9C42B5C66DA002FCE5E /* ButtonTitle.swift */,
+				22C51A602B5D5AC8009D4ED5 /* ContentView.swift */,
 				2258F9B92B5C63B7002FCE5E /* LoadingView.swift */,
 				22A627782B5CB0CE00C8CDB7 /* ConfirmationScreen */,
 				22A6277B2B5CE4A900C8CDB7 /* CookStatusScreen */,
@@ -117,7 +129,8 @@
 		2258F9BD2B5C6534002FCE5E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2258F9C12B5C65F4002FCE5E /* NoodleModel.swift */,
+				2258F9C12B5C65F4002FCE5E /* BaseModel.swift */,
+				22C51A622B5D5B05009D4ED5 /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -125,7 +138,7 @@
 		2258F9BE2B5C653B002FCE5E /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				2258F9BF2B5C65BE002FCE5E /* NoodleViewModel.swift */,
+				2258F9BF2B5C65BE002FCE5E /* ContentViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -184,6 +197,23 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		3E10B83DDE1DEF1D300C2DEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				560D817BDE0B3146BB1B135B /* Pods-Noodle Doodle.debug.xcconfig */,
+				ED49007CE84F5A323FA6F74A /* Pods-Noodle Doodle.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C1BD4C550D9BCFF463F96766 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF2043058E228EC59F903309 /* Pods_Noodle_Doodle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -191,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2258F9B52B5C6256002FCE5E /* Build configuration list for PBXNativeTarget "Noodle Doodle" */;
 			buildPhases = (
+				36199C53E79AE130D0BD7970 /* [CP] Check Pods Manifest.lock */,
 				2258F9A32B5C6255002FCE5E /* Sources */,
 				2258F9A42B5C6255002FCE5E /* Frameworks */,
 				2258F9A52B5C6255002FCE5E /* Resources */,
+				3715B7ABA6817F2509128CA5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,19 +285,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36199C53E79AE130D0BD7970 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Noodle Doodle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3715B7ABA6817F2509128CA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Noodle Doodle/Pods-Noodle Doodle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Noodle Doodle/Pods-Noodle Doodle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Noodle Doodle/Pods-Noodle Doodle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2258F9A32B5C6255002FCE5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2258F9C02B5C65BE002FCE5E /* NoodleViewModel.swift in Sources */,
+				2258F9C02B5C65BE002FCE5E /* ContentViewModel.swift in Sources */,
 				22A6277A2B5CB0DB00C8CDB7 /* ConfirmationView.swift in Sources */,
+				22C51A612B5D5AC8009D4ED5 /* ContentView.swift in Sources */,
 				2258F9C52B5C66DA002FCE5E /* ButtonTitle.swift in Sources */,
 				2258F9AD2B5C6255002FCE5E /* BaseView.swift in Sources */,
 				22A627742B5C983400C8CDB7 /* NoodleTextureSlider.swift in Sources */,
 				2258F9C72B5C6A04002FCE5E /* StartView.swift in Sources */,
 				22A627762B5CA45400C8CDB7 /* ToppingButton.swift in Sources */,
-				2258F9C22B5C65F4002FCE5E /* NoodleModel.swift in Sources */,
+				2258F9C22B5C65F4002FCE5E /* BaseModel.swift in Sources */,
+				22C51A632B5D5B05009D4ED5 /* Post.swift in Sources */,
 				2258F9BC2B5C64DB002FCE5E /* MainView.swift in Sources */,
 				22A627722B5C981900C8CDB7 /* SpiceLevelButton.swift in Sources */,
 				2258F9AB2B5C6255002FCE5E /* NoodleDoodleApp.swift in Sources */,
@@ -393,6 +469,7 @@
 		};
 		2258F9B62B5C6256002FCE5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 560D817BDE0B3146BB1B135B /* Pods-Noodle Doodle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -401,6 +478,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Noodle Doodle/Preview Content\"";
 				DEVELOPMENT_TEAM = SGR28C4682;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Noodle-Doodle-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -409,11 +487,9 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaiden.Noodle-Doodle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -424,6 +500,7 @@
 		};
 		2258F9B72B5C6256002FCE5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED49007CE84F5A323FA6F74A /* Pods-Noodle Doodle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -432,6 +509,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Noodle Doodle/Preview Content\"";
 				DEVELOPMENT_TEAM = SGR28C4682;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Noodle-Doodle-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -440,11 +518,9 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaiden.Noodle-Doodle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
