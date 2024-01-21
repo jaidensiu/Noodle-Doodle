@@ -21,6 +21,10 @@
 		2258F9FD2B5C7D53002FCE5E /* LibraMoon-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2258F9F92B5C7D52002FCE5E /* LibraMoon-Regular.otf */; };
 		2258F9FE2B5C7D53002FCE5E /* LibraMoon-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2258F9FA2B5C7D52002FCE5E /* LibraMoon-Italic.otf */; };
 		2258F9FF2B5C7D53002FCE5E /* LibraMoon-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2258F9FB2B5C7D53002FCE5E /* LibraMoon-Light.otf */; };
+		22A627722B5C981900C8CDB7 /* SpiceLevelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A627712B5C981900C8CDB7 /* SpiceLevelButton.swift */; };
+		22A627742B5C983400C8CDB7 /* NoodleTextureSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A627732B5C983400C8CDB7 /* NoodleTextureSlider.swift */; };
+		22A627762B5CA45400C8CDB7 /* ToppingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A627752B5CA45400C8CDB7 /* ToppingButton.swift */; };
+		22A6277A2B5CB0DB00C8CDB7 /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A627792B5CB0DB00C8CDB7 /* ConfirmationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		2258F9F92B5C7D52002FCE5E /* LibraMoon-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-Regular.otf"; sourceTree = "<group>"; };
 		2258F9FA2B5C7D52002FCE5E /* LibraMoon-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-Italic.otf"; sourceTree = "<group>"; };
 		2258F9FB2B5C7D53002FCE5E /* LibraMoon-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibraMoon-Light.otf"; sourceTree = "<group>"; };
+		22A627712B5C981900C8CDB7 /* SpiceLevelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiceLevelButton.swift; sourceTree = "<group>"; };
+		22A627732B5C983400C8CDB7 /* NoodleTextureSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoodleTextureSlider.swift; sourceTree = "<group>"; };
+		22A627752B5CA45400C8CDB7 /* ToppingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToppingButton.swift; sourceTree = "<group>"; };
+		22A627792B5CB0DB00C8CDB7 /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +83,6 @@
 				2258F9AE2B5C6256002FCE5E /* Assets.xcassets */,
 				2258F9F72B5C7CDE002FCE5E /* Fonts */,
 				2258F9BD2B5C6534002FCE5E /* Models */,
-				2258F9F62B5C7CB0002FCE5E /* New Group */,
 				2258F9B02B5C6256002FCE5E /* Preview Content */,
 				2258F9BE2B5C653B002FCE5E /* ViewModels */,
 				2258F9B82B5C6380002FCE5E /* Views */,
@@ -94,11 +101,12 @@
 		2258F9B82B5C6380002FCE5E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2258F9C32B5C66BF002FCE5E /* Components */,
+				22A627782B5CB0CE00C8CDB7 /* ConfirmationScreen */,
+				22A627772B5CB0B500C8CDB7 /* StartScreen */,
+				22A627702B5C97FF00C8CDB7 /* MainScreen */,
 				2258F9AC2B5C6255002FCE5E /* BaseView.swift */,
 				2258F9B92B5C63B7002FCE5E /* LoadingView.swift */,
-				2258F9BB2B5C64DB002FCE5E /* MainView.swift */,
-				2258F9C62B5C6A04002FCE5E /* StartView.swift */,
+				2258F9C42B5C66DA002FCE5E /* ButtonTitle.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -119,21 +127,6 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		2258F9C32B5C66BF002FCE5E /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				2258F9C42B5C66DA002FCE5E /* ButtonTitle.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		2258F9F62B5C7CB0002FCE5E /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		2258F9F72B5C7CDE002FCE5E /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +136,33 @@
 				2258F9F92B5C7D52002FCE5E /* LibraMoon-Regular.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		22A627702B5C97FF00C8CDB7 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2258F9BB2B5C64DB002FCE5E /* MainView.swift */,
+				22A627712B5C981900C8CDB7 /* SpiceLevelButton.swift */,
+				22A627732B5C983400C8CDB7 /* NoodleTextureSlider.swift */,
+				22A627752B5CA45400C8CDB7 /* ToppingButton.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		22A627772B5CB0B500C8CDB7 /* StartScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2258F9C62B5C6A04002FCE5E /* StartView.swift */,
+			);
+			path = StartScreen;
+			sourceTree = "<group>";
+		};
+		22A627782B5CB0CE00C8CDB7 /* ConfirmationScreen */ = {
+			isa = PBXGroup;
+			children = (
+				22A627792B5CB0DB00C8CDB7 /* ConfirmationView.swift */,
+			);
+			path = ConfirmationScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,11 +240,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2258F9C02B5C65BE002FCE5E /* MainViewModel.swift in Sources */,
+				22A6277A2B5CB0DB00C8CDB7 /* ConfirmationView.swift in Sources */,
 				2258F9C52B5C66DA002FCE5E /* ButtonTitle.swift in Sources */,
 				2258F9AD2B5C6255002FCE5E /* BaseView.swift in Sources */,
+				22A627742B5C983400C8CDB7 /* NoodleTextureSlider.swift in Sources */,
 				2258F9C72B5C6A04002FCE5E /* StartView.swift in Sources */,
+				22A627762B5CA45400C8CDB7 /* ToppingButton.swift in Sources */,
 				2258F9C22B5C65F4002FCE5E /* MainModel.swift in Sources */,
 				2258F9BC2B5C64DB002FCE5E /* MainView.swift in Sources */,
+				22A627722B5C981900C8CDB7 /* SpiceLevelButton.swift in Sources */,
 				2258F9AB2B5C6255002FCE5E /* NoodleDoodleApp.swift in Sources */,
 				2258F9BA2B5C63B7002FCE5E /* LoadingView.swift in Sources */,
 			);
