@@ -75,7 +75,7 @@ struct CookStatusView: View {
         .navigationBarHidden(true)
         .navigationBarBackButtonHidden(true)
         .onAppear {
-            Timer.scheduledTimer(withTimeInterval: 5, repeats: false) { _ in
+            Timer.scheduledTimer(withTimeInterval: 400, repeats: false) { _ in
                 isButtonEnabled = true
             }
         }
